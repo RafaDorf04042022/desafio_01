@@ -16,11 +16,27 @@ body{
 }
 main{
   display: flex;
+  justify-content: center;
   align-items: center;
-  width: 70px;
+  height: 100vh;
 }
 .result{
   text-align: center;
   background-color: hsl(252, 100%, 67%);
   border-radius: 10px;
+  width: 360px;
+  height: 100%;
 }
+.base{
+  display: flex;
+  border-radius: 10px;
+  width: 720px;
+  height: 50%;
+  box-shadow: 3px 3px 3px hsl(241, 100%, 89%);
+}
+.lista{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
