@@ -32,11 +32,18 @@ main{
   border-radius: 10px;
   width: 720px;
   height: 50%;
-  box-shadow: 3px 3px 3px hsl(241, 100%, 89%);
+  box-shadow: 20px 20px 20px hsl(221, 100%, 96%);
 }
 .lista{
   list-style: none;
   padding: 0;
   text-align: center;
+}
+.circle{
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  background-color: yellow;
 }
 
