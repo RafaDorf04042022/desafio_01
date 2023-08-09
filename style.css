@@ -30,20 +30,19 @@ main{
   background-color: hsl(252, 100%, 67%);
   color: white;
   border-radius: 10px;
-  width: 360px;
+  width: 450px;
   height: 100%;
 }
 .base{
   display: flex;
   border-radius: 10px;
-  width: 720px;
-  height: 50%;
+  width: 900px;
+  height: 85%;
   box-shadow: 20px 20px 20px hsl(221, 100%, 96%);
 }
 .summary{
   list-style: none;
   padding: 0;
-  text-align: center;
   margin: 0 auto;
 }
 .circle{
@@ -51,7 +50,7 @@ main{
   text-align: center;
   border-radius: 50%;
   width: 50%;
-  height: 50%;
+  height: 39%;
   background:  linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 }
 .reaction{
